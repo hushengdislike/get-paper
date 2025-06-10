@@ -1,0 +1,7 @@
+Flask
+requests
+feedparser
+sqlalchemy
+jieba
+wordcloud
+matplotlib

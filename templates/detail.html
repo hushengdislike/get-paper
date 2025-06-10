@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ paper.title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-4">
+    <h2>{{ paper.title }}</h2>
+    <p><strong>摘要：</strong></p>
+    <div class="alert alert-secondary">{{ paper.summary }}</div>
+    <a class="btn btn-primary" href="{{ paper.link }}" target="_blank">arXiv原文</a>
+    <a class="btn btn-secondary ml-2" href="/">返回首页</a>
+</div>
+</body>
+</html> 
